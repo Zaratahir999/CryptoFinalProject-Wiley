@@ -1,9 +1,11 @@
 -Cryto Final Project-
 
+The T2 crypto app is a revolutionary application designed to simplify the cryptocurrency investment experience for individual investors. Developed efficiently using Java, this app has been brought to life in a short time frame to address the complexities faced by users when managing multiple digital assets across various exchanges. With the goal of providing a seamless and user-friendly solution, the app employs CRUD operations to fetch data from a secure database, while also integrating with a trusted third-party API to access real-time coin data and essential information.
+
+
+-Requirements-
 For the final course project, you will create a web-based application using tools and skills learned throughout the course and present the project to the rest of the class when the project is complete.
 
-
-Requirements:
 The completed project will demonstrate your ability to plan and write code effectively. As such, it must meet the following standards:
 
 The code must be well-organized, using a MVC approach.
@@ -44,6 +46,3 @@ The application must include a frontend GUI interface to interact with the end u
 The frontend may be written in JavaScript, jQuery, React, or Angular.
 Implement data and form validation.
 The application must use a version control system for code.
-
-At a minimum, Git must be used to manage files locally.
-Ideally, the project will be synchronized to a GitHub repository, potentially using GitHub Classroom at the instructor's direction.
