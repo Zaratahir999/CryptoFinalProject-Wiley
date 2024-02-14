@@ -1,48 +1,48 @@
--Cryto Final Project-
+# T2 Crypto App 🚀 - Final Project (Team Project)
 
-The T2 crypto app is a revolutionary application designed to simplify the cryptocurrency investment experience for individual investors. Developed efficiently using Java, this app has been brought to life in a short time frame to address the complexities faced by users when managing multiple digital assets across various exchanges. With the goal of providing a seamless and user-friendly solution, the app employs CRUD operations to fetch data from a secure database, while also integrating with a trusted third-party API to access real-time coin data and essential information.
+The T2 crypto app is a revolutionary web-based application designed to simplify cryptocurrency investment for individual investors. Developed efficiently using Java, this app addresses the complexities faced by users when managing multiple digital assets across various exchanges. 🚀💻📈
 
+## Requirements
 
--Requirements-
-For the final course project, you will create a web-based application using tools and skills learned throughout the course and present the project to the rest of the class when the project is complete.
+### Code Organisation
+- Well-organised code using MVC approach
+- Flowcharts and/or UML diagrams for code organisation
+- Wireframes for GUI interface planning
+- Object-oriented style coding
+- Consistent use of proper naming conventions for variables
+- Appropriate communication between layers
 
-The completed project will demonstrate your ability to plan and write code effectively. As such, it must meet the following standards:
+### Functional Unit Testing
+- Testing for all CRUD operations
+- Implementation using JUnit 5 or another Java testing suite
 
-The code must be well-organized, using a MVC approach.
+### Error Handling
+- Custom error messages and appropriate implementation
+- Error handlers in the appropriate packages
 
-Use flowcharts and/or UML diagrams to organize code.
-Use wireframes to plan out your GUI interface.
-The code must be organized in an object-oriented style.
-Use proper naming conventions consistently for all variables in the app.
-Be sure that each layer communicates with other layers appropriately.
-The application must include functional unit testing for each part of the application.
+### Spring Framework Integration
+- Use of Spring DI and appropriate annotations
 
-The application must include testing for all CRUD operations.
-Implement testing using JUnit 5 or another Java testing suite.
-The application must demonstrate the appropriate use of error handling.
+### Database
+- Relational Database (e.g., MySQL)
+  - ERD to describe the database
+  - Normalised to at least 2NF; 3NF preferred
+  - Schema .sql file for database creation
+  - Data .sql file for adding data
 
-The application must include custom error messages and implement them where appropriate.
-Error handlers must be in the appropriate packages.
-The application must use Spring tools to build and organize the code.
+### REST API Endpoints
+- CRUD operations using JDBCTemplate or JPA
+- Endpoints: Create, Read all, Read by Id, Update by Id, Delete by Id
+- Server data validation before database writing
 
-Use Spring DI and appropriate @Annotations in the code.
-The application must include a database.
+### Frontend GUI Interface
+- Implemented in JavaScript, jQuery, React, or Angular
+- Data and form validation
+- User-friendly interface for seamless interaction
 
-If you are using a relational database, such as MySQL:
-Use an ERD to describe the database.
-The database must use appropriate tables and fields.
-The database must be normalized to at least 2NF; 3NF preferred.
-Create and submit a schema .sql file to create the database and a data .sql file to add data to the database.
-If you are using a non-relational database, such as MongoDB:
-Provide documentation that describes the type of data included in the database.
-Include a JSON file with examples of the data included in the database.
-The application must use JDBCTemplate or JPA to perform CRUD operations on data using appropriate REST API endpoints.
+### Version Control
+- Use of a version control system for code management
 
-At a minimum, the application must include endpoints to Create, Read all, Read by Id, Update by Id, and Delete by Id.
-Include server data validation before writing data to the database.
-Other endpoints may be needed based on the goal of the application.
-The application must include a frontend GUI interface to interact with the end user.
-
-The frontend may be written in JavaScript, jQuery, React, or Angular.
-Implement data and form validation.
-The application must use a version control system for code.
+## How to Run
+- Clone this repository
+- Follow instructions in each component's directory to run the application
